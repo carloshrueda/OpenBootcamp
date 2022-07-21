@@ -21,7 +21,7 @@ public class Coche {
     }
     
     public void mostrarPuertas() {
-        System.out.println("El coche tiene " + num_puertas + " puertas");
+        System.out.println("El coche tiene: " + num_puertas + " puertas");
     }
     
     public static void main(String[] args) {

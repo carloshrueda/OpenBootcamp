@@ -11,19 +11,19 @@ package IntroduccionProgramacion.Funciones.EjerciciosTema3;
 
 public class Coche {
     private int num_puertas;
-    
+
     public Coche() {
         num_puertas = 0;
     }
-    
+
     public void añadirPuerta() {
         num_puertas++;
     }
-    
+
     public void mostrarPuertas() {
         System.out.println("El coche tiene: " + num_puertas + " puertas");
     }
-    
+
     public static void main(String[] args) {
         Coche miCoche = new Coche();
 
